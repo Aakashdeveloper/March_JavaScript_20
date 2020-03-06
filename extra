@@ -5,6 +5,7 @@ Ecma 5
 Ecma 6
 > variable
 > Operations
+---------------------
 > condition
 > if else
 > ternery Operations
@@ -23,6 +24,7 @@ Ecma 6
 > Prototypes
 > Transpile
 > DoM
+> Event
 > Calc
 > Form validation
 > Geolocation
