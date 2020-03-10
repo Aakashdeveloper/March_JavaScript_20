@@ -3,11 +3,14 @@ Ecma 5
 Ecma 6
 > variable
 > Operations
----------------------
+> Github
 > condition
 > if else
 > ternery Operations
+> Date
 > switch
+> localstorage
+---------------------
 > loops
 > functions
 > array
@@ -15,7 +18,6 @@ Ecma 6
     > lat, const
     > maps,filter
 > regex
-> localstorage
 > Clousers
 > Hoisting
 > object 
@@ -36,13 +38,30 @@ Ecma 6
 > Weather application
 > ajax
 > JSON
-> Github
+
 
 20-25
 
 //
-Github
-Date
-switch
 stringliterals
-localstorage
+array
+
+
+//Github
+
+//FirstTime//
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testapp.git
+git push -u origin master
+
+//All Next Time//
+git add .
+git commit -m "first commit"
+git push
+
+git checkout -b newfeature
+git add .
+git commit -m "first commit"
+git push -u origin newfeature
