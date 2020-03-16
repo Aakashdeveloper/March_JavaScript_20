@@ -10,10 +10,10 @@ Ecma 6
 > Date
 > switch
 > localstorage
+> array
 ---------------------
 > loops
 > functions
-> array
 > Es6
     > lat, const
     > maps,filter
@@ -65,3 +65,8 @@ git checkout -b newfeature
 git add .
 git commit -m "first commit"
 git push -u origin newfeature
+
+
+//
+loops
+function
