@@ -55,3 +55,54 @@ for(i=0;i<movies.length;i++){
     console.log(`Name of the movie is ${movies[i].name} And Rating is ${movies[i].rate} star`)
 }
 
+for(i=0;i<10;i++){
+  console.log("first",i)
+  console.log(i)
+  console.log("second",i)
+}
+
+/************While Loop *****/
+var i =0;
+console.log("outside",i)
+while(i<10){
+  console.log("first",i)
+  i++
+  console.log("second",i)
+}
+
+
+/***********Do While************/
+var i = 0
+console.log("outside",i)
+do{
+  console.log("first",i)
+  i++
+  console.log("second",i)
+}
+while(i<10)
+
+
+
+var language =["NodeJS", "AngularJs","ReactJS"]
+for(i=0;i<language.length;i++){
+  console.log(language[i])
+}
+
+var i =0;
+while(i<language.length){
+  console.log(language[i])
+  i++
+}
+
+var i = 0
+do{
+  console.log(language[i])
+  i++
+}
+while(i<language.length)
+
+
+var citys = ["NodeJS", "AngularJs","ReactJS"]
+for(city of citys){
+  console.log(city)
+}
