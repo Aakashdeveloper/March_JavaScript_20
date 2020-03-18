@@ -38,3 +38,28 @@ var isEven = function(userinput){
   
     return output;
 }
+
+
+//Es6 Arrow Function
+var isEven = (userinput) =>{
+    var output;
+        if(userinput%2==0){
+            output= "Number is even"
+        }else{
+            output=  "Number is odd"
+        }
+  
+    return output;
+}
+
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+var add = (a,b) => { return a+b }
+add(1,2)
+
+

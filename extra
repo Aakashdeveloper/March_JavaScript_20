@@ -11,14 +11,14 @@ Ecma 6
 > switch
 > localstorage
 > array
----------------------
 > loops
 > functions 
 > Es6
     > lat, const
     > maps,filter
-> regex
 > Clousers
+---------------------
+> regex
 > Hoisting
 > object 
 > Prototypes
