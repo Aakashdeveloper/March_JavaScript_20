@@ -19,10 +19,13 @@ Ecma 6
 > Clousers
 > regex
 > Hoisting
----------------------
 > object 
-> Prototypes
 > Transpile
+> Es6
+    > classes
+    > import export
+---------------------
+> Prototypes
 > DoM
 > Event
 > Calc
@@ -31,9 +34,6 @@ Ecma 6
 > Proogress bar
 > promis
 > async await
-> Es6
-    > classes
-    > import export
 > Baisc Jquery
 > Weather application
 > ajax
@@ -67,6 +67,18 @@ git commit -m "first commit"
 git push -u origin newfeature
 
 
+//depdency management//
+package.json
+>> Navigate to the folder where you want to create pacakge.json using cmd
+>>npm init
+>> answer all questions
+>> type 'yes'
+
+>> Navigate to the folder where you want to create pacakge.json using cmd
+>> npm i @babel/core @babel/register @babel/preset-env
+
+
 //
-loops
-function
+call
+apply
+prototype

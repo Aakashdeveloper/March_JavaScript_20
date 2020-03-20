@@ -80,3 +80,10 @@ calc.sum(1,2)
 3
 calc.sub(1,2)
 -1
+
+
+
+function calc(){
+    this.sum = (a,b)=>{return a+b},
+    this.sub = (a,b)=>{return a-b}
+}
