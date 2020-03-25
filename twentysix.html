@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Events</title>
+        <script>
+            function color(){
+                document.getElementById("mytext").style.color="green"
+            }
+            /*function showme(){
+                document.getElementById("mytext").style.visibility="visible"
+            }
+            function hideme(){
+                document.getElementById("mytext").style.visibility="hidden"
+            }
+            */
+            function checkvisbile(action){
+                if(action == 'show'){
+                    document.getElementById("mytext").style.visibility="visible"
+                }else{
+                    document.getElementById("mytext").style.visibility="hidden"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="mytext">
+            This is javascript with html
+        </h1>
+        <button type="button"
+        onClick="color()">
+            Change Color
+        </button>
+        <button type="button"
+        onClick="checkvisbile('show')">
+            Show Me
+        </button>
+        <button type="button"
+        onClick="checkvisbile('hide')">
+            Hide Me
+        </button>
+    </body>
+</html>
