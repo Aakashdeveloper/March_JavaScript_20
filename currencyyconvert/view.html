@@ -5,15 +5,19 @@
     <body>
         <div>
             <label>Base Currency</label>
-            <input id="base" placeholder="USD">
+            <input id="base" placeholder="USD" value="USD">
         </div>
         <div>
             <label>Output Currency</label>
-            <input id="output" placeholder="CAD">
+            <input id="output" placeholder="CAD" value="INR">
+        </div>
+        <div>
+            <label>Enter Amount</label>
+            <input id="amount" placeholder="10" value=10>
         </div>
         <button type="button" onClick="convert()">
             Convert
         </button>
-        <p id="output"></p>
+        <p id="converted"></p>
     </body>
 </html>

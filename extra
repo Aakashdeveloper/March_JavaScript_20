@@ -25,15 +25,15 @@ Ecma 6
     > classes
     > import export
 > Prototypes
----------------------
 > DoM
 > Event
 > Calc
-> Form validation
 > Geolocation
-> Progress bar
 > promis
 > async await
+> Form validation
+> Progress bar
+---------------------
 > Baisc Jquery
 > Weather application
 > ajax
@@ -42,9 +42,6 @@ Ecma 6
 
 20-25
 
-//
-stringliterals
-array
 
 
 //Github

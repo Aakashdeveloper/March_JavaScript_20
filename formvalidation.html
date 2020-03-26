@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script>
+            const validate = () => {
+                var name = document.getElementById('fname').value;
+                if(name ==' '||name == ''){
+                    document.getElementById('output').innerText="Please insert firstname"
+                }else{
+                    document.getElementById('output').innerText=""
+                }
+            }
+            const validatelname = () => {
+                var name = document.getElementById('lname').value;
+                if(name.length<8){
+                    document.getElementById('output').innerText="Min length is eight"
+                }else{
+                    document.getElementById('output').innerText=""
+                }
+            }
+            const validateemail = () => {
+                var email = document.getElementById('email').value;
+                if(email ==' '||email==''){
+                    document.getElementById('output').innerText="Please enter email"
+                }else{
+                    if(email.match('^([a-zA-Z0-9]+)@([a-zA-Z]\.)([a-zA-Z]{2,5})$') ==null){
+                        document.getElementById('output').innerText="Please eneter valid Email" 
+                    }else{
+                        document.getElementById('output').innerText=""
+                    }
+                    
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="" method="">
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname" onblur="validate()"/>
+            </div>
+            <div>
+                <label>LastName</label>
+                <input type="text" id="lname" oninput="validatelname()"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" onblur="validateemail()"/>
+            </div>
+        </form>
+        <p id="output" style="color:red"></p>
+    </body>
+</html>
