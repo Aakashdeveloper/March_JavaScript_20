@@ -42,3 +42,12 @@ myarray.filter((data) => {return data*2})
 (4) [1, 2, 3, 4]
 
 
+
+
+var city = {"name":"John","class":"ui"}
+
+var out =""
+var x;
+for(x in city){
+    out += city[x] + " "
+}
